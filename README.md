@@ -1,35 +1,20 @@
-# 🎧 Overtone Analyzer
+# Psychomantle Overtone Analyzer — Project Skeleton
 
-A lightweight command-line tool that analyzes vocal or instrumental recordings — perfect for overtone singers, sound designers, and anyone exploring the harmonic layers of sound.
+## Goal
+Create a sound‑reactive tool that visualizes overtone and harmonic structures from throat singing.
 
----
+## Basic Architecture
+1. **Input** — microphone audio stream (`pyaudio`, `sounddevice`)  
+2. **Processing** — FFT analysis (`numpy`, `scipy`)  
+3. **Visualization** — real‑time graph (`matplotlib`, or Pixelblaze link)  
+4. **Integration** — optional Reflex Engine plugin for tracking improvements.
 
-## 🧠 Overview
+## MVP Plan
+- Record sample .wav files.  
+- Plot spectral energy bands: bass (60–250 Hz), formant (400–1,500 Hz), overtone (3–8 kHz).  
+- Save results to `/data/` as timestamped JSON or CSV.
 
-**Overtone Analyzer** reads a `.wav` file and measures the energy distribution across key frequency bands:
-
-| Band | Range (Hz) | Meaning |
-|------|-------------|---------|
-| **Bass** | 60 – 250 | Fundamental & chest resonance |
-| **Formant** | 400 – 1500 | Mouth/throat shaping |
-| **Overtones** | 3000 – 8000 | Brightness & harmonic “air” |
-
-It also estimates the **peak fundamental frequency** (60–300 Hz) and can save detailed plots and data files.
-
----
-
-## ⚙️ Features
-
-- 🔍 Fast spectrum & band-energy analysis  
-- 📈 Optional PNG/CSV/JSON outputs (`--save`)  
-- 🎛 Works with mono/stereo WAV (16/24/32-bit or float)  
-- 🧠 Only needs `numpy` + `matplotlib` (and optionally `soundfile` / `scipy`)  
-
----
-
-## 🚀 Installation
-
-```bash
-git clone https://github.com/yourusername/overtone-analyzer.git
-cd overtone-analyzer
-pip install numpy matplotlib soundfile scipy
+## Future Additions
+- Real‑time visual interface (Streamlit or Processing).  
+- Link to LED or Pixelblaze reactive lighting.  
+- Combine with Obsidian reflection logs for performance analytics.

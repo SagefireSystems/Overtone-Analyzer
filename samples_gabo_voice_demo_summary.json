@@ -1,0 +1,35 @@
+{
+  "file": "samples_gabo_voice_demo.wav",
+  "sample_rate": 44100,
+  "duration_sec": 3.0,
+  "estimated_fundamental_hz": 183.0322265625,
+  "bands": [
+    {
+      "band": "Bass 60\u2013250 Hz",
+      "lo_hz": 60,
+      "hi_hz": 250,
+      "energy": 2.1974135237503267,
+      "pct": 67.66493091446453
+    },
+    {
+      "band": "Formant 400\u20131500 Hz",
+      "lo_hz": 400,
+      "hi_hz": 1500,
+      "energy": 0.40912834637027506,
+      "pct": 12.598284752997285
+    },
+    {
+      "band": "Overtones 1\u20138 kHz",
+      "lo_hz": 1500.0,
+      "hi_hz": 8000.0,
+      "energy": 0.002268594714207348,
+      "pct": 0.06985681254376452
+    }
+  ],
+  "total_power": 3.247492451485814,
+  "air_band_hz": [
+    1500.0,
+    8000.0
+  ],
+  "decimals": 4
+}
