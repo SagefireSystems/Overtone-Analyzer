@@ -28,7 +28,7 @@ Create a sound-reactive tool that visualizes overtone and harmonic structures fr
 ## 📊 Real Spectrum Comparison
 After analyzing multiple takes, the tool creates a direct frequency overlay:
 
-![Real Comparison](docs/real_comparison.png)
+![Real Comparison](real_comparison.png)
 
 This plot compares the **Demo**, **Bright**, and **Extra-bright** versions of your voice, showing how energy shifts upward through the harmonic bands.
 
@@ -37,7 +37,7 @@ This plot compares the **Demo**, **Bright**, and **Extra-bright** versions of yo
 ### Band Percentages (from your runs)
 This chart shows the **energy balance** across bands for each version:
 
-![Band Comparison](docs/band_comparison.png)
+![Band Comparison](band_comparison.png)
 
 Use this to spot whether your **overtones** (2–8 kHz) are actually increasing when you change EQ, mic distance, or vocal technique.
 
