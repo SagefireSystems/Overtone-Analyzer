@@ -48,3 +48,6 @@ Use this to spot whether your **overtones** (2–8 kHz) are actually increasing 
 - Over time, you can build a database of your throat-singing progress — a measurable growth curve for harmonic control.
 
 ---
+
+### 📁 Output Folder Structure
+
